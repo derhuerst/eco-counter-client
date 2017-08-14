@@ -52,7 +52,7 @@ const parseCounter = (org) => (c) => {
 		table: c.nomTable, // todo: find a better name
 
 		// counting data
-		count: c.total,
+		count: c.total ? parseInt(c.total) : null,
 		periodStart: c.debut && c.debut !== 'null' ? parseDate(c.debut) : null,
 		periodEnd: c.fin && c.fin !== 'null' ? parseDate(c.fin) : today,
 		instruments: c.pratique.map(p => p.id), // todo: find a better name
