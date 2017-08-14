@@ -1,5 +1,7 @@
 # eco-counter-client
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/derhuerst/eco-counter-client.svg)](https://greenkeeper.io/)
+
 **Fetch data about [bicycle counters](https://en.wikipedia.org/wiki/Traffic_count#Bicycle_and_pedestrian_traffic_counting_devices) from the [Eco Counter](http://www.eco-compteur.com/en/) API.**
 
 [![npm version](https://img.shields.io/npm/v/eco-counter-client.svg)](https://www.npmjs.com/package/eco-counter-client)
