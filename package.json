@@ -8,7 +8,10 @@
 		"lib"
 	],
 	"keywords": [
-		"todo"
+		"bicycle",
+		"bike",
+		"counter",
+		"api"
 	],
 	"author": "Jannis R <mail@jannisr.de>",
 	"homepage": "https://github.com/derhuerst/eco-counter-client",

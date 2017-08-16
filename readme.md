@@ -17,6 +17,8 @@ npm install eco-counter-client
 
 ## Usage
 
+An organisation seems to be just a set of counters. You need to pass in an organisation ID. See [`eco-counter-organisations`](https://github.com/derhuerst/eco-counter-organisations) for a list.
+
 ```js
 const {counters, data} = require('eco-counter-client')
 
