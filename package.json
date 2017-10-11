@@ -1,7 +1,7 @@
 {
 	"name": "eco-counter-client",
 	"description": "Fetch data about bicycle counters from the Eco Counter API.",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"main": "index.js",
 	"files": [
 		"index.js",

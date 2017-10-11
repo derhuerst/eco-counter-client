@@ -42,7 +42,7 @@ counters(4728) // Berlin
 	coordinates: {
 		latitude: 52.5140658632566,
 		longitude: 13.41775102070807,
-		countrey: 'de'
+		country: 'de'
 	},
 	organisation: {
 		id: 4728,

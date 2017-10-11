@@ -41,7 +41,7 @@ const parseCounter = (org) => (c) => {
 		coordinates: {
 			latitude: parseFloat(c.lat),
 			longitude: parseFloat(c.lon),
-			countrey: c.pays
+			country: c.pays
 		},
 
 		// for further queries
