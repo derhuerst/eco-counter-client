@@ -6,7 +6,7 @@ counters(4728)
 .then((counters) => {
 	const c = counters[0]
 	console.log(c)
-	return data(c.organisation.id, null, c.id, c.instruments, c.periodStart, c.periodEnd)
+	return data(c.organisation.id, c.id, c.instruments, c.periodStart, c.periodEnd)
 })
 .then(console.log)
 .catch(console.error)

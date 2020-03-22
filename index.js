@@ -78,8 +78,7 @@ const parseData = (d) => {
 	}))
 }
 
-// todo [breaking]: remove `table` parameter
-const data = (org, table, counter, pratique, from, to) => {
+const data = (org, counter, pratique, from, to) => {
 	if ('number' !== typeof org) throw new Error('org must be a number')
 	if ('string' !== typeof counter) throw new Error('counter must be a string')
 	if (!(from instanceof Date)) throw new Error('from must be a Date object')

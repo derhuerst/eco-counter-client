@@ -44,7 +44,7 @@ test('seems to work', (t) => {
 		}
 
 		const c = counters[0]
-		return data(c.organisation.id, c.table, c.id, c.instruments, c.periodStart, c.periodEnd)
+		return data(c.organisation.id, c.id, c.instruments, c.periodStart, c.periodEnd)
 	})
 	.then((data) => {
 		t.ok(Array.isArray(data))

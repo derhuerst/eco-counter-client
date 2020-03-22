@@ -26,7 +26,7 @@ counters(4728) // Berlin
 .then((counters) => {
 	const c = counters[0]
 	console.log(c)
-	return data(c.organisation.id, null, c.id, c.instruments, c.periodStart, c.periodEnd)
+	return data(c.organisation.id, c.id, c.instruments, c.periodStart, c.periodEnd)
 })
 .then(console.log)
 .catch(console.error)
@@ -57,7 +57,7 @@ counters(4728) // Berlin
 }
 ```
 
-`data(org, table, id, instruments, start, end)` returns a `Promise` that resolves with an array days. They look like this:
+`data(org, id, instruments, start, end)` returns a `Promise` that resolves with an array days. They look like this:
 
 ```js
 [
