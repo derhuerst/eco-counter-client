@@ -1,7 +1,7 @@
 {
 	"name": "eco-counter-client",
 	"description": "Fetch data about bicycle counters from the Eco Counter API.",
-	"version": "0.1.2",
+	"version": "1.0.0",
 	"main": "index.js",
 	"files": [
 		"index.js",
@@ -19,7 +19,7 @@
 	"bugs": "https://github.com/derhuerst/eco-counter-client/issues",
 	"license": "ISC",
 	"engines": {
-		"node": ">=6"
+		"node": ">=10"
 	},
 	"dependencies": {
 		"fetch-ponyfill": "^6.0.0",
@@ -28,7 +28,7 @@
 		"query-string": "^6.0.0"
 	},
 	"devDependencies": {
-		"tap-min": "^1.2.1",
+		"tap-min": "^2.0.0",
 		"tape": "^4.8.0"
 	},
 	"scripts": {
