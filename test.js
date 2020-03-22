@@ -29,7 +29,6 @@ test('seems to work', (t) => {
 			t.ok(org)
 			t.equal(typeof org.id, 'number')
 			t.equal(typeof org.name, 'string')
-			t.equal(typeof c.table, 'string')
 
 			t.equal(typeof c.count, 'number', i + ' count')
 			if (c.periodStart) t.ok(c.periodStart instanceof Date)

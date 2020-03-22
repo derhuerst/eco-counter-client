@@ -49,7 +49,6 @@ const parseCounter = (org) => (c) => {
 			id: org,
 			name: c.nomOrganisme
 		},
-		table: c.nomTable, // todo: find a better name
 
 		// counting data
 		count: c.total ? parseInt(c.total) : null,
@@ -79,16 +78,15 @@ const parseData = (d) => {
 	}))
 }
 
+// todo [breaking]: remove `table` parameter
 const data = (org, table, counter, pratique, from, to) => {
 	if ('number' !== typeof org) throw new Error('org must be a number')
-	if ('string' !== typeof table) throw new Error('table must be a string')
 	if ('string' !== typeof counter) throw new Error('counter must be a string')
 	if (!(from instanceof Date)) throw new Error('from must be a Date object')
 	if (!(to instanceof Date)) throw new Error('to must be a Date object')
 
 	const query = {
 		idOrganisme: org,
-		table: table,
 		idPdc: counter,
 		interval: 4, // todo: what is this?
 		pratiques: pratique.join(';'), // todo: what is this?

@@ -26,7 +26,7 @@ counters(4728) // Berlin
 .then((counters) => {
 	const c = counters[0]
 	console.log(c)
-	return data(c.organisation.id, c.table, c.id, c.instruments, c.periodStart, c.periodEnd)
+	return data(c.organisation.id, null, c.id, c.instruments, c.periodStart, c.periodEnd)
 })
 .then(console.log)
 .catch(console.error)
@@ -48,10 +48,9 @@ counters(4728) // Berlin
 		id: 4728,
 		name: 'VERKEHRSLENKUNG BERLIN'
 	},
-	table: 'ecobdd.`Z_100024661`',
-	count: '4456437',
+	count: 492398,
 	periodStart: 2016-01-01T00:00:00.000Z, // JS Date object
-	periodEnd: 2017-08-13T22:00:00.000Z, // JS Date object
+	periodEnd: 2020-03-21T23:00:00.000Z, // JS Date object
 	instruments: [101024661, 102024661],
 	photos: ['https://www.eco-visio.net/Photos/100024661/14677966316060.jpg'],
 	logo: 'https://www.eco-visio.net/Logos/4728/1485517072671.jpg'
